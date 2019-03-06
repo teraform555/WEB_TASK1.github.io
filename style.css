@@ -1,0 +1,117 @@
+﻿html, body
+{
+	height: 100%
+	width: 100%;
+}
+.navbar
+{
+background-color:  #A3D5F8;
+padding: 1% 0;
+font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active
+{
+	color: #FFF;
+}
+
+#home
+{
+	background: url(img/road.mp4) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	height: 720px;
+	width: : 1360px;
+	min-width: 100%;
+
+}
+.overlay {
+
+display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+    position:absolute;
+    top:52%;
+    left:65%;
+    z-index:1;
+
+}
+.landing-text
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.landing-text h1
+{
+	font-size: 500%;
+	font-weight: 700;
+	color: #D5D5D5;
+
+}
+.landing-text h3
+{
+	color: #D5D5D5;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+
+}
+
+
+.padding
+{
+	padding: 80px 0;
+height: 100%; 
+box-sizing: border-box;
+}
+.padding img
+{
+width: 100%;
+}
+#fixed
+{
+	background: url(img/plants.jpg) no-repeat center center fixed;
+	display: table;
+	height: 350px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer
+{
+	width:100%;
+	max-height: 10px;
+	background-color: #A3D5F8;
+	padding: 0% 5% 10% 5%;
+	color: #FFF;
+
+	height: 100%;
+	 box-sizing: border-box;
+}
+.fa
+{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+
+	
+}
+.fa:hover
+{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.icon
+{
+	max-width: 200px;
+}
